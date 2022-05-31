@@ -7,5 +7,7 @@ const elem = <h2> Hello World </h2>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  elem
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
